@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="18829" started-at="2020-01-30T17:46:36Z" finished-at="2020-01-30T17:46:55Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="18829" started-at="2020-01-30T17:46:36Z" finished-at="2020-01-30T17:46:55Z">
+      <class name="com.freenow.testScripts.UserBlog">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.freenow.testScripts.UserBlog@6ef888f6]" name="setup" is-config="true" duration-ms="151" started-at="2020-01-30T17:46:36Z" finished-at="2020-01-30T17:46:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="emailValidateForValidUser()[pri:0, instance:com.freenow.testScripts.UserBlog@6ef888f6]" name="emailValidateForValidUser" duration-ms="7249" started-at="2020-01-30T17:46:36Z" finished-at="2020-01-30T17:46:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emailValidateForValidUser -->
+        <test-method status="PASS" signature="emailValidateUserWithInValidUsername()[pri:0, instance:com.freenow.testScripts.UserBlog@6ef888f6]" name="emailValidateUserWithInValidUsername" duration-ms="370" started-at="2020-01-30T17:46:43Z" finished-at="2020-01-30T17:46:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emailValidateUserWithInValidUsername -->
+        <test-method status="PASS" signature="emailValidateUserWithSpecialcharactor()[pri:0, instance:com.freenow.testScripts.UserBlog@6ef888f6]" name="emailValidateUserWithSpecialcharactor" duration-ms="11190" started-at="2020-01-30T17:46:44Z" finished-at="2020-01-30T17:46:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emailValidateUserWithSpecialcharactor -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.freenow.testScripts.UserBlog@6ef888f6]" name="tearDown" is-config="true" duration-ms="271" started-at="2020-01-30T17:46:55Z" finished-at="2020-01-30T17:46:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.freenow.testScripts.UserBlog -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
